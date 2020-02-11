@@ -1,8 +1,10 @@
 sudo: required
+os: linux
+language: javascript
 services:
     - docker
 
-before-install:
+before_install:
     - docker build -t gerrading/docker-react -f Dockerfile.dev .
 
 
