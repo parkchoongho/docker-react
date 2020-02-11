@@ -1,6 +1,5 @@
 sudo: required
-os: linux
-language: javascript
+
 services:
     - docker
 
